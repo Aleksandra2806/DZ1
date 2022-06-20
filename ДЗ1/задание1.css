@@ -1,0 +1,19 @@
+div {
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 450px;
+    background-color: rgba(248, 248, 176, 0.425);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border: rgb(0, 119, 255) double 4px;
+}
+button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+button:hover {
+    background: rgb(0, 119, 255);
+    color: aliceblue;
+    transition: background .2s linear, color .2s linear;
+}
